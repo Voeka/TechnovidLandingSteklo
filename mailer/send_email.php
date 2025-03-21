@@ -44,11 +44,11 @@ $theme = "Заявка с формы";
 
 
  try {
-    $mail->addAddress('info@techno-vid.ru');
-//   $mail->addAddress('klochkovd@gefestcapital.com');
+    // $mail->addAddress('info@techno-vid.ru');
+  $mail->addAddress('klochkovd@gefestcapital.com');
     $mail->Subject = $theme;
     $mail->Body = $body;
-    $mail->setFrom('zayavki@i-russia.info', 'Interactive Russia');
+    $mail->setFrom('info@techno-vid.ru', 'TechoVid');
 
 
     $mail->send();
