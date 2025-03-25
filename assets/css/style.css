@@ -5,7 +5,11 @@
     "Source Han Sans CN", sans-serif;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Onest:wght@300;400;500;600;700&display=swap');
+
+
 html, body{
+  font-family: 'Onest', 'roboto', sans-serif !important;
   margin: 0;
 }
 
@@ -72,6 +76,12 @@ button {
   border-radius: 30px;
   cursor: pointer;
 }
+.rectangle:hover{
+  background: #0049e6;
+}
+.rectangle:active{
+  background: #003ec4;
+}
 .contacts {
   display: flex;
   align-items: flex-start;
@@ -114,6 +124,7 @@ button {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
+  text-decoration: none;
 
   height: 18px;
 
@@ -130,6 +141,7 @@ button {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
+  text-decoration: none;
   height: 18px;
   color: #000000;
   font-family: Onest, var(--default-font-family);
@@ -144,6 +156,7 @@ button {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
+  text-decoration: none;
   height: 18px;
   color: #000000;
   font-family: Onest, var(--default-font-family);
@@ -158,6 +171,7 @@ button {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
+  text-decoration: none;
   height: 18px;
   color: #000000;
   font-family: Onest, var(--default-font-family);
@@ -1860,8 +1874,16 @@ footer button{
   cursor: pointer;
 }
 
+footer button:hover{
+  background-color: rgb(243, 243, 243);
+}
+  
+footer button:hover:active{
+  background-color: rgb(230, 230, 230);
+}
+
 .copyrigth p{
-  font-size: 10px;
+  font-size: 13px;
   margin-bottom: 0;
 }
 
@@ -1981,6 +2003,11 @@ form input[type='submit']:active{
 
 .gray-text{
   color: rgba(0, 0, 0, 0.4);
+}
+
+.mobileimg{
+  width: 110px;
+  margin-bottom: 50px;
 }
 
 @media (max-width:1440px) {
