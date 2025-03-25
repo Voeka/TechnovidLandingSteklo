@@ -70,6 +70,7 @@ button {
   background: #004fff;
   z-index: 7;
   border-radius: 30px;
+  cursor: pointer;
 }
 .contacts {
   display: flex;
@@ -940,6 +941,9 @@ button {
   text-align: left;
   white-space: nowrap;
   z-index: 85;
+}
+.glasswall1{
+  display: none;
 }
 .span-price-stationary {
   flex-shrink: 0;
@@ -2161,6 +2165,20 @@ form input[type='submit']:active{
 
 @media (max-width:960px) {
 
+  .rectangle-1 {
+    display: none;
+  }
+
+  .glasswall1{
+    display: block;
+    width: 95%;
+    max-height: 450px;
+    height: auto;
+    margin: 20px 20px 0 20px;
+    border-radius: 10px;
+  }
+
+
 .call1 span a{
   display: none;
 }
@@ -2426,6 +2444,135 @@ form div label:last-child {
 }
 
 
+@media (max-width:640px) {
+
+
+ .glasswall1{
+  min-height: 400px;
+ }
+
+ .flex-row-1b,.flex-row-1d, .flex-row-dce, .flex-row-1f, .flex-row-c-20, .flex-row-cc, .flex-row-22{
+  width: 94%;
+  margin: 20px 10px 0 10px;
+}
+
+.rectangle-1c, .rectangle-23{
+  width: 94%;
+  margin: 20px 10px 0 10px;
+}
+
+.flex-row, .flex-row-c, .flex-row-b, .flex-row-eca{
+  flex-direction: column;
+  gap: 10px;
+}
+
+.flex-row div, .flex-row-c div, .flex-row-b div, .flex-row-eca div, .glass-processing, .different-glass-types, .okraska-furnitury-text, .kompleksnyy-podhod-text{
+  width: 96%;
+  max-width: 100%;
+
+}
+
+.call1{
+  width: fit-content ;
+}
+
+.ofisnye-peregordki, .mezkomnatnye-peregordki{
+  white-space: normal;
+  margin-left: 20px;
+}
+
+.flex-row-e , .rectangle-2 ,.vidy-peregordok, .span-cost{
+  margin-top: 70px;
+}
+
+.rectangle-d, .rectangle-9 , .rectangle-5, .rectangle-2{
+  width: 91%;
+} 
+
+.flex-row-e, .regroup-16{
+  flex-direction: column;
+}
+
+.rectangle-14 ,.rectangle-13, .rectangle-17, .rectangle-18, .rectangle-15{
+  width: 95%;
+  margin: 0 10px;
+}
+
+.rectangle-14, .rectangle-18{
+  display: flex;
+}
+
+.mask-group, .group-19{
+  margin: auto;
+}
+
+.span-color-profile, .span-glass-partitions, .besplatnaya-konsultatsiya-text{
+  width: 85%;
+}
+
+.rectangle-13, .rectangle-17, .rectangle-15{
+  height: fit-content;
+}
+
+.rectangle-16add{
+  display: none;
+}
+
+.regroup-16{
+  
+  height: fit-content;
+
+}
+
+
+.span-choose-design{
+  margin-left: 20px;
+
+}
+
+.OL1{
+  margin-right: 20px;
+}
+
+.flex-row-ca{
+  width: 95%;
+  margin: 40px auto 0 auto;
+}
+
+.rectangle-1a{
+  width: 100%;
+  max-width: 100%;
+}
+
+.rectangle-1c, .rectangle-23{
+  width: 95%;
+}
+
+.order-info, .disclaimer{
+  width: auto;
+}
+
+
+.calculate-price-data{
+  width: auto;
+  height: auto;
+}
+
+.span-glass-partitions-1e{
+  white-space: normal;
+}
+
+.individual-price-calculation{
+  width: auto;
+  height: auto;
+}
+
+
+
+
+
+}
+
 #myBtn {
   display: none; /* Hidden by default */
   position: fixed; /* Fixed/sticky position */
@@ -2451,7 +2598,3 @@ form div label:last-child {
 #myBtn:hover {
   background-color: #a1a1a167; /* Add a dark-grey background on hover */
 }
-
-
-
-

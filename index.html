@@ -26,16 +26,16 @@
 
         <div class="header">
 
-            <a class="about-us">О нас</a>
-            <a class="production">Производство</a>
-            <a class="cost">Стоимость</a>
-            <a class="services">Услуги</a>
+            <a href="#about" class="about-us">О нас</a>
+            <a  href="#production" class="production">Производство</a>
+            <a href="#price" class="cost">Стоимость</a>
+            <a href="#services" class="services">Услуги</a>
         
         </div>
 
         <div class="call1">
           <span><a href="tel:+79295378883"><img src="assets/img/phon.png" alt="tel"> +7 929 537 88 83</a></span>
-        <div class=" hideOnHalfMobile rectangle"><span class="contacts">Контакты</span></div>
+        <div onclick="location.href='#footer'" class=" hideOnHalfMobile rectangle"><span class="contacts">Контакты</span></div>
       </div>
 
         <nav id="js-nav" class="nav">
@@ -70,8 +70,9 @@
           перегородки из стекла.</span
         >
       </div>
+
       <img src="https://static.codia.ai/image/2025-03-14/2a062da8-c4db-4161-b438-a443043c888d.png" class="rectangle-1">
-      
+      <img src="assets/img/glasswall.png" class="glasswall1">
       
       
       <!-- Производство для ПК-->
@@ -79,7 +80,7 @@
       <div class="flex-row hideOnHalfMobile">
         
         
-          <span class="own-production">Собственное производство</span
+          <span id="about" class="own-production">Собственное производство</span
           ><span class="glass-processing"
             >У нас есть различные станки для обработки стёкол: резки, шлифовки,
             пескоструйной обработки и закалки. Закалённое стекло прочнее и
@@ -177,9 +178,9 @@
       <!-- Конец производтва  для мобильных-->
     </div>
 
-      <span class="vidy-peregordok">Виды перегородок</span>
+      <span id="production" class="vidy-peregordok">Виды перегородок</span>
       <div class="flex-row-ea">
-        <div class="rectangle-10">
+        <div onclick="location.href='https://wa.me/+79295378883'" class="rectangle-10">
           <div class="group"></div>
           <span class="ofisnye-peregordki">Офисные перегородки</span
           ><span class="ofisnye-peregordki-text"
@@ -189,7 +190,7 @@
             пространства и улучшая рабочую среду.</span
           >
         </div>
-        <div class="rectangle-11">
+        <div onclick="location.href='https://wa.me/+79295378883'" class="rectangle-11">
           <div class="group-12"></div>
           <span class="mezkomnatnye-peregordki">Межкомнатные перегородки</span
           ><span class="mezkomnatnye-peregordki-text"
@@ -199,7 +200,7 @@
           >
         </div>
       </div>
-      <div class="flex-row-e">
+      <div id="services" class="flex-row-e">
         <div class="rectangle-14add"></div>
         <div class="rectangle-13">
           <span class="besplatnaya-konsultatsiya">Бесплатная консультация</span
@@ -234,7 +235,7 @@
           <div class="rectangle-18"><div class="group-19"></div></div>
         </div>
       </div>
-      <span class="span-cost">Стоимость</span>
+      <span id="price" class="span-cost">Стоимость</span>
       <div class="flex-row-ca">
         <div class="rectangle-1a">
           <div class="flex-row-1b">
